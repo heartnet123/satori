@@ -34,8 +34,8 @@ export const analyzedJobSchema = z.object({
   requirements: z.array(z.string().min(1)),
   domains: z.array(z.string().min(1)),
   confidence: z.number().min(0).max(1),
-  createdAt: z.string().datetime(),
-  updatedAt: z.string().datetime(),
+  createdAt: z.string().datetime({ offset: true }),
+  updatedAt: z.string().datetime({ offset: true }),
 });
 
 export const recommendationLabelSchema = z.enum([
@@ -57,7 +57,7 @@ export const recruitmentMatchSchema = z.object({
   risks: z.array(z.string().min(1)),
   explanation: z.string().min(1),
   recommendationLabel: recommendationLabelSchema,
-  createdAt: z.string().datetime(),
+  createdAt: z.string().datetime({ offset: true }),
 });
 
 export const opportunityRecommendationSchema = z.object({
@@ -100,7 +100,7 @@ export const resumeExtractionSchema = z.object({
   summary: z.string().min(1),
   skills: z.array(z.string()),
   sourceFileName: z.string().min(1),
-  createdAt: z.string().datetime(),
+  createdAt: z.string().datetime({ offset: true }),
 });
 
 export type Seniority = z.infer<typeof senioritySchema>;
