@@ -27,14 +27,13 @@ export function Sidebar() {
     <aside className="border-b border-line/80 bg-surface/95 backdrop-blur lg:sticky lg:top-0 lg:flex lg:h-screen lg:flex-col lg:border-b-0 lg:border-r">
       <div className="flex items-center gap-4 border-line/80 px-5 py-5 sm:px-6 lg:px-4">
         <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-primary text-lg font-semibold text-primary-foreground shadow-[0_14px_30px_rgba(45,99,243,0.25)]">
-          AI
+          S
         </div>
         <div className="min-w-0">
           <div className="font-display text-sm font-semibold tracking-tight text-foreground">
-            AI Recruitment &
+            Satori
           </div>
           <div className="font-display text-sm font-semibold tracking-tight text-foreground">
-            Analysis System
           </div>
         </div>
       </div>

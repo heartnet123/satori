@@ -14,8 +14,8 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "AI Recruitment & Analysis System",
-  description: "Demo workspace for resume parsing, job analysis, matching, and recommendations.",
+  title: "Satori",
+  description: "AI Recruitment & Analysis System",
 };
 
 export default function RootLayout({

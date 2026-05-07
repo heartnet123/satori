@@ -1,9 +1,4 @@
-import * as pdfjsLib from 'pdfjs-dist';
-
-// Configuring the worker, assuming standard build
-// Note: In Next.js/SSR environments, we might need to point to the worker explicitly.
-// For now, this is a baseline implementation.
-pdfjsLib.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjsLib.version}/pdf.worker.min.js`;
+import * as pdfjsLib from 'pdfjs-dist/legacy/build/pdf.mjs';
 
 export async function extractTextFromPDF(buffer: ArrayBuffer): Promise<string> {
   const loadingTask = pdfjsLib.getDocument({ data: buffer });

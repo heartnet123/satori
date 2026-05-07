@@ -1,6 +1,7 @@
-import { OpenAI } from 'openai';
+import { embed } from 'ai';
+import { createOpenAI } from '@ai-sdk/openai';
 
-const openai = new OpenAI({
+const openai = createOpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
 
@@ -20,12 +21,12 @@ export class EmbeddingService {
     }
 
     try {
-      const response = await openai.embeddings.create({
-        model: 'text-embedding-3-small',
-        input: text.replace(/\n/g, ' '), // Recommended preprocessing for embeddings
+      const { embedding } = await embed({
+        model: openai.embedding('text-embedding-3-small'),
+        value: text.replace(/\n/g, ' '), // Recommended preprocessing for embeddings
       });
 
-      return response.data[0].embedding;
+      return embedding;
     } catch (error: any) {
       console.error("Error generating embedding:", error);
       throw new Error(`Embedding generation failed: ${error.message}`);
