@@ -1,0 +1,12 @@
+{
+  "last_session_id": "070438a7-61bf-4d6d-8d6c-5b5bdf7677c2",
+  "last_event_key": "070438a7-61bf-4d6d-8d6c-5b5bdf7677c2:transcript:151981512db2462541a23c3d863d5a7cc3a3003a15dc5760251298326428bcad",
+  "last_prompted_session_id": "",
+  "last_reason": "short-session",
+  "last_prompted_at": "",
+  "last_user_message_count": 0,
+  "last_actionable_message_count": 0,
+  "deep_interview_lock_active": false,
+  "deep_interview_lock_source": "E:\\webappgithub\\satori\\.omg\\state\\deep-interview.json",
+  "updated_at": "2026-05-07T03:49:23.685Z"
+}

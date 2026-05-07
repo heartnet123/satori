@@ -1,0 +1,431 @@
+{
+    "source": {
+      "fileName": "MyResume.pdf",
+      "fileType": "pdf",
+      "language": "en",
+      "parsedAt": "2026-04-27T00:00:00.000Z"
+    },
+    "candidate": {
+      "fullName": "Jaruvit Jongcheaklang",
+      "email": "jaruvit.rpg@gmail.com",
+      "phone": "097-148-2351",
+      "location": null,
+      "links": {
+        "github": "heartnet123",
+        "portfolio": "Web Portfolio",
+        "linkedin": null,
+        "website": null
+      }
+    },
+    "headline": "Fullstack Developer",
+    "professionalSummary": "Fullstack Developer with experience in Next.js and Django, skilled in both frontend and backend development. Built projects including an E-commerce platform, an E-book store, and a kitchen management desktop app, focusing on scalability and user experience. Passionate about Modern Webapp, AI, Game Development, and Cybersecurity.",
+    "education": [
+      {
+        "institution": "King Mongkut's Institute of Technology Ladkrabang",
+        "degree": null,
+        "fieldOfStudy": "Information Technology",
+        "startYear": 2022,
+        "endYear": null,
+        "status": "current",
+        "description": "4th year student of Information Technology",
+        "evidence": [
+          "King Mongkut's Institute of Technology Ladkrabang",
+          "Education 2022 - Now",
+          "4th year student of Information Technology"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "Thai",
+        "proficiency": "native",
+        "evidence": ["Thai (Native)"]
+      },
+      {
+        "language": "English",
+        "proficiency": "intermediate",
+        "test": {
+          "name": "TOEIC",
+          "score": 780
+        },
+        "evidence": ["English (TOEIC 780)"]
+      }
+    ],
+    "skills": {
+      "raw": [
+        "HTML",
+        "CSS",
+        "JS",
+        "React",
+        "Next.js",
+        "TailwindCSS",
+        "Svelte Kit",
+        "Node.js",
+        "Django",
+        "Hono",
+        "Supabase",
+        "Python",
+        "PostgreSQL",
+        "MySQL",
+        "SQLite",
+        "AWS",
+        "Docker",
+        "Vercel",
+        "Netlify",
+        "Linux",
+        "Arduino IDE",
+        "Tauri"
+      ],
+      "normalized": [
+        {
+          "name": "HTML",
+          "category": "frontend",
+          "confidence": 0.99,
+          "evidence": ["Frontend : HTML, CSS, JS, React, Next.js, TailwindCSS, Svelte Kit"]
+        },
+        {
+          "name": "CSS",
+          "category": "frontend",
+          "confidence": 0.99,
+          "evidence": ["Frontend : HTML, CSS, JS, React, Next.js, TailwindCSS, Svelte Kit"]
+        },
+        {
+          "name": "JavaScript",
+          "category": "programming_language",
+          "aliases": ["JS"],
+          "confidence": 0.99,
+          "evidence": ["Frontend : HTML, CSS, JS, React, Next.js, TailwindCSS, Svelte Kit"]
+        },
+        {
+          "name": "React",
+          "category": "frontend_framework",
+          "confidence": 0.99,
+          "evidence": ["Frontend : HTML, CSS, JS, React, Next.js, TailwindCSS, Svelte Kit"]
+        },
+        {
+          "name": "Next.js",
+          "category": "frontend_framework",
+          "confidence": 0.99,
+          "evidence": ["Frontend : HTML, CSS, JS, React, Next.js, TailwindCSS, Svelte Kit"]
+        },
+        {
+          "name": "Tailwind CSS",
+          "category": "css_framework",
+          "aliases": ["TailwindCSS"],
+          "confidence": 0.98,
+          "evidence": ["Frontend : HTML, CSS, JS, React, Next.js, TailwindCSS, Svelte Kit"]
+        },
+        {
+          "name": "SvelteKit",
+          "category": "frontend_framework",
+          "aliases": ["Svelte Kit"],
+          "confidence": 0.96,
+          "evidence": ["Frontend : HTML, CSS, JS, React, Next.js, TailwindCSS, Svelte Kit"]
+        },
+        {
+          "name": "Node.js",
+          "category": "backend_runtime",
+          "confidence": 0.98,
+          "evidence": ["Backend : Node.js, Django, Hono, Supabase, Python"]
+        },
+        {
+          "name": "Django",
+          "category": "backend_framework",
+          "confidence": 0.99,
+          "evidence": ["Backend : Node.js, Django, Hono, Supabase, Python"]
+        },
+        {
+          "name": "Hono",
+          "category": "backend_framework",
+          "confidence": 0.95,
+          "evidence": ["Backend : Node.js, Django, Hono, Supabase, Python"]
+        },
+        {
+          "name": "Supabase",
+          "category": "backend_platform",
+          "confidence": 0.95,
+          "evidence": ["Backend : Node.js, Django, Hono, Supabase, Python"]
+        },
+        {
+          "name": "Python",
+          "category": "programming_language",
+          "confidence": 0.98,
+          "evidence": ["Backend : Node.js, Django, Hono, Supabase, Python"]
+        },
+        {
+          "name": "PostgreSQL",
+          "category": "database",
+          "confidence": 0.99,
+          "evidence": ["Database : PostgreSQL, MySQL, SQLite"]
+        },
+        {
+          "name": "MySQL",
+          "category": "database",
+          "confidence": 0.99,
+          "evidence": ["Database : PostgreSQL, MySQL, SQLite"]
+        },
+        {
+          "name": "SQLite",
+          "category": "database",
+          "confidence": 0.99,
+          "evidence": ["Database : PostgreSQL, MySQL, SQLite"]
+        },
+        {
+          "name": "AWS",
+          "category": "cloud",
+          "confidence": 0.96,
+          "evidence": ["DevOps/Cloud : AWS, Docker, Vercel, Netlify"]
+        },
+        {
+          "name": "Docker",
+          "category": "devops",
+          "confidence": 0.96,
+          "evidence": ["DevOps/Cloud : AWS, Docker, Vercel, Netlify"]
+        },
+        {
+          "name": "Vercel",
+          "category": "deployment_platform",
+          "confidence": 0.96,
+          "evidence": ["DevOps/Cloud : AWS, Docker, Vercel, Netlify"]
+        },
+        {
+          "name": "Netlify",
+          "category": "deployment_platform",
+          "confidence": 0.96,
+          "evidence": ["DevOps/Cloud : AWS, Docker, Vercel, Netlify"]
+        },
+        {
+          "name": "Linux",
+          "category": "tool",
+          "confidence": 0.95,
+          "evidence": ["Other : Linux, Arduino IDE, Tauri"]
+        },
+        {
+          "name": "Arduino IDE",
+          "category": "tool",
+          "confidence": 0.95,
+          "evidence": ["Other : Linux, Arduino IDE, Tauri"]
+        },
+        {
+          "name": "Tauri",
+          "category": "desktop_app_framework",
+          "confidence": 0.96,
+          "evidence": ["Other : Linux, Arduino IDE, Tauri"]
+        }
+      ],
+      "primary": [
+        "Next.js",
+        "Django",
+        "React",
+        "JavaScript",
+        "Python",
+        "PostgreSQL",
+        "Tailwind CSS"
+      ]
+    },
+    "workExperiences": [],
+    "projects": [
+      {
+        "name": "BookCube",
+        "type": "school_project",
+        "description": "Co-developed a reading platform with one teammate, enabling users to search and follow favorite books and authors while accessing their personal library online.",
+        "role": "Co-developer",
+        "technologies": ["Django", "PostgreSQL"],
+        "responsibilities": [
+          "Built reading platform features",
+          "Implemented book and author search/follow functionality",
+          "Supported personal online library access"
+        ],
+        "achievements": [],
+        "evidence": [
+          "BookCube",
+          "Co-developed a reading platform with one teammate...",
+          "Tech : Django, PostgreSQL"
+        ]
+      },
+      {
+        "name": "Nextmart",
+        "type": "school_project",
+        "description": "Developed a full-stack E-commerce platform using Next.js, Tailwind CSS, and Django REST Framework with JWT authentication.",
+        "role": "Fullstack Developer",
+        "technologies": [
+          "Next.js",
+          "Tailwind CSS",
+          "Django",
+          "Django REST Framework",
+          "JWT",
+          "SQLite"
+        ],
+        "responsibilities": [
+          "Developed product search",
+          "Implemented shopping cart",
+          "Implemented order management",
+          "Built admin control for product and shipping status"
+        ],
+        "achievements": [],
+        "evidence": [
+          "Nextmart",
+          "Developed a full-stack E-commerce platform using Next.js, Tailwind CSS, and Django REST Framework with JWT authentication.",
+          "Tech : Next.js, Django, SQLite"
+        ]
+      },
+      {
+        "name": "TicketTune",
+        "type": "school_project",
+        "description": "Developed a ticket booking platform using HTML, CSS, and JavaScript with responsive design and user-friendly interface.",
+        "role": "Developer",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "responsibilities": [
+          "Built event browsing feature",
+          "Implemented ticket selection flow",
+          "Implemented booking flow",
+          "Designed responsive UI"
+        ],
+        "achievements": [],
+        "evidence": [
+          "TicketTune",
+          "Developed a ticket booking platform using HTML, CSS, and JavaScript...",
+          "Tech : HTML, CSS, JS"
+        ]
+      },
+      {
+        "name": "Inventory Management",
+        "type": "school_project",
+        "description": "Developed a kitchen inventory management desktop app using Svelte, Tailwind CSS, Tauri, and SQLite.",
+        "role": "Developer",
+        "technologies": ["Tauri", "Svelte", "SQLite", "Tailwind CSS"],
+        "responsibilities": [
+          "Developed desktop app for kitchen inventory management",
+          "Built stock tracking and organization functionality",
+          "Focused on lightweight and performant desktop experience"
+        ],
+        "achievements": [],
+        "evidence": [
+          "Inventory Management",
+          "Developed a kitchen inventory management desktop app using Svelte...",
+          "Tech : Tauri, Svelte, SQLite"
+        ]
+      }
+    ],
+    "certifications": [],
+    "inferredProfile": {
+      "totalYearsExperience": 0,
+      "commercialYearsExperience": 0,
+      "projectBasedExperience": true,
+      "seniority": "student",
+      "roleFamilies": [
+        "fullstack",
+        "frontend",
+        "backend"
+      ],
+      "strongestSkills": [
+        "Next.js",
+        "Django",
+        "React",
+        "JavaScript",
+        "Python",
+        "PostgreSQL",
+        "SQLite",
+        "Tailwind CSS"
+      ],
+      "domainExperience": [
+        "E-commerce",
+        "E-book / Reading Platform",
+        "Ticket Booking",
+        "Inventory Management",
+        "Desktop Application"
+      ],
+      "interests": [
+        "Modern Web App",
+        "AI",
+        "Game Development",
+        "Cybersecurity"
+      ],
+      "confidence": 0.88,
+      "warnings": [
+        "Resume does not show formal work experience or internship experience.",
+        "Projects are school projects, not clearly commercial production experience.",
+        "GitHub and portfolio are listed as labels but not full URLs.",
+        "Degree name is not explicitly stated, only field and current student status are provided."
+      ]
+    },
+    "matchingProfile": {
+      "searchText": "Fullstack Developer student Next.js Django React JavaScript Python PostgreSQL SQLite Tailwind CSS Node.js Docker AWS Tauri Svelte E-commerce inventory management ticket booking",
+      "embeddingText": "Candidate is a 4th-year Information Technology student and Fullstack Developer with project experience in Next.js, Django, React, JavaScript, Python, PostgreSQL, SQLite, Tailwind CSS, Svelte, and Tauri. Projects include an e-commerce platform, e-book reading platform, ticket booking platform, and kitchen inventory management desktop app.",
+      "hardSkills": [
+        "Next.js",
+        "Django",
+        "React",
+        "JavaScript",
+        "Python",
+        "PostgreSQL",
+        "SQLite",
+        "Tailwind CSS",
+        "Node.js"
+      ],
+      "softSkills": [
+        "User Experience Focus",
+        "Continuous Learning"
+      ],
+      "tools": [
+        "Docker",
+        "AWS",
+        "Vercel",
+        "Netlify",
+        "Linux",
+        "Tauri",
+        "Arduino IDE"
+      ],
+      "domains": [
+        "E-commerce",
+        "E-book Platform",
+        "Ticket Booking",
+        "Inventory Management"
+      ],
+      "preferredRoles": [
+        "Fullstack Developer",
+        "Frontend Developer",
+        "Backend Developer",
+        "Junior Software Engineer",
+        "Intern Software Engineer"
+      ],
+      "redFlags": [
+        {
+          "type": "missing_work_experience",
+          "message": "No formal work experience or internship is listed.",
+          "severity": "medium",
+          "evidence": [
+            "Experience section lists School Projects only."
+          ]
+        },
+        {
+          "type": "missing_full_links",
+          "message": "GitHub and portfolio are not provided as full URLs.",
+          "severity": "low",
+          "evidence": [
+            "heartnet123",
+            "Web Portfolio"
+          ]
+        }
+      ]
+    },
+    "analysis": {
+      "confidence": 0.9,
+      "quality": "usable",
+      "missingFields": [
+        "location",
+        "linkedin",
+        "full github url",
+        "portfolio url",
+        "formal work experience",
+        "certifications",
+        "degree name",
+        "graduation year"
+      ],
+      "warnings": [
+        "Candidate has strong project-based fullstack profile, but lacks listed professional experience.",
+        "Some links are not machine-actionable because they are shown as labels rather than full URLs.",
+        "AI/ML interest is mentioned, but no AI/ML project or ML framework experience is listed."
+      ]
+    }
+  }

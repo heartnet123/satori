@@ -1,0 +1,230 @@
+{
+    "source": {
+      "platform": "JobThai",
+      "url": "https://www.jobthai.com/th/job/1441948",
+      "language": "th",
+      "postedDateText": "27 เม.ย. 69",
+      "postedDateNormalized": "2026-04-27",
+      "sourceType": "job_detail_page"
+    },
+    "company": {
+      "name": "THiNKNET Co., Ltd.",
+      "summary": "องค์กรที่เชี่ยวชาญด้านการนำข้อมูลมาพัฒนาต่อยอดเป็นผลิตภัณฑ์ที่ช่วยแก้ปัญหาและตอบโจทย์ผู้ใช้งาน โดยมีผลิตภัณฑ์หลัก เช่น JobThai และ product อื่น ๆ ของ THiNKNET",
+      "industry": [
+        "Information Technology",
+        "Recruitment Platform",
+        "Data Product",
+        "Digital Product"
+      ],
+      "productsMentioned": [
+        "JobThai"
+      ]
+    },
+    "job": {
+      "title": "Artificial Intelligence Engineer (AI Engineer) - WFH 95% + Office 5%",
+      "normalizedTitle": "Artificial Intelligence Engineer",
+      "roleFamily": "AI / Machine Learning",
+      "seniority": null,
+      "employmentType": null,
+      "workMode": "hybrid",
+      "remotePolicy": {
+        "workFromHomePercent": 95,
+        "officePercent": 5,
+        "description": "สามารถทำงานจากที่ไหนก็ได้ แค่มีอินเทอร์เน็ต และมีออฟฟิศที่กรุงเทพฯ และเชียงใหม่สำหรับผู้ที่ต้องการเข้าออฟฟิศ"
+      },
+      "workingHours": {
+        "type": "flexible",
+        "hoursPerWeek": 40
+      },
+      "openings": 2,
+      "salary": {
+        "min": 25000,
+        "max": 70000,
+        "currency": "THB",
+        "period": "monthly"
+      },
+      "location": {
+        "country": "Thailand",
+        "province": "Bangkok",
+        "district": "Bang Rak",
+        "subdistrict": "Silom",
+        "nearbyTransit": [
+          "BTS Chong Nonsi",
+          "BTS Sala Daeng",
+          "MRT Si Lom",
+          "BRT Sathon"
+        ],
+        "officeCitiesMentioned": [
+          "Bangkok",
+          "Chiang Mai"
+        ]
+      },
+      "onlineInterview": true
+    },
+    "roleDefinition": {
+      "summary": "Artificial Intelligence Engineer ทำหน้าที่พัฒนาระบบปัญญาประดิษฐ์ เทคโนโลยี Machine Learning และ Deep Learning เพื่อประยุกต์ใช้ในการแก้ปัญหาทางธุรกิจ",
+      "businessContext": [
+        "พัฒนา AI เพื่อแก้ปัญหาทางธุรกิจ",
+        "สนับสนุน product ของบริษัท เช่น JobThai",
+        "ใช้ข้อมูลและเทคโนโลยีเพื่อสร้างนวัตกรรมที่มีคุณค่าต่อผู้ใช้งาน"
+      ]
+    },
+    "responsibilities": [
+      {
+        "text": "วิเคราะห์ปัญหาและวางแผนออกแบบระบบปัญญาประดิษฐ์ที่สามารถแก้ไขปัญหาได้ โดยใช้ Machine Learning, Deep Learning และ Neural Networks",
+        "category": "ai_system_design"
+      },
+      {
+        "text": "นำเทคโนโลยีและข้อมูลมาสร้างโมเดลที่สามารถเรียนรู้และประมวลผลข้อมูลได้ โดยเลือก Algorithm ที่เหมาะสมกับปัญหาที่ต้องแก้ไข",
+        "category": "model_development"
+      },
+      {
+        "text": "ทดสอบและประเมินระบบ AI เพื่อให้มั่นใจว่าระบบสามารถทำงานได้ถูกต้องและตรงกับความต้องการของผู้ใช้งาน",
+        "category": "model_evaluation"
+      },
+      {
+        "text": "ดูแลและปรับปรุงระบบ AI ให้เป็นไปตามความต้องการของผู้ใช้งาน และวิเคราะห์แก้ไขปัญหาเมื่อระบบเกิดข้อผิดพลาด",
+        "category": "maintenance_and_troubleshooting"
+      }
+    ],
+    "requirements": {
+      "education": [
+        {
+          "level": "bachelor_or_master",
+          "fields": [
+            "Computer Engineering",
+            "Information Engineering",
+            "Computer Science",
+            "Information Technology",
+            "Related fields"
+          ],
+          "required": true
+        }
+      ],
+      "yearsExperience": {
+        "min": null,
+        "max": null,
+        "required": false,
+        "note": "JD ไม่ระบุจำนวนปีประสบการณ์"
+      },
+      "requiredSkills": [
+        "Programming",
+        "Algorithm",
+        "Problem Analysis",
+        "AI/ML System Design",
+        "Machine Learning",
+        "Deep Learning",
+        "Neural Networks",
+        "Model Evaluation",
+        "Communication",
+        "Team Collaboration"
+      ],
+      "preferredSkills": [
+        "Python",
+        "R",
+        "Java",
+        "C++",
+        "ETL/ELT",
+        "Jupyter Notebook",
+        "TensorFlow",
+        "OpenCV",
+        "Docker"
+      ],
+      "technicalSkills": {
+        "programmingLanguages": [
+          "Python",
+          "R",
+          "Java",
+          "C++"
+        ],
+        "aiMl": [
+          "Machine Learning",
+          "Deep Learning",
+          "Neural Networks",
+          "TensorFlow",
+          "OpenCV"
+        ],
+        "dataEngineering": [
+          "ETL",
+          "ELT"
+        ],
+        "tools": [
+          "Jupyter Notebook",
+          "Docker"
+        ]
+      },
+      "softSkills": [
+        "Communication",
+        "Teamwork",
+        "Continuous Learning",
+        "Passion for technology",
+        "Creativity"
+      ],
+      "certifications": []
+    },
+    "benefits": {
+      "listedInCurrentPage": false,
+      "benefitsLinkAvailable": true,
+      "note": "มีลิงก์ดูข้อมูลสวัสดิการทั้งหมด แต่เนื้อหาสวัสดิการไม่ได้แสดงครบใน JD หน้านี้"
+    },
+    "application": {
+      "methods": [
+        "JobThai quick apply",
+        "Apply with JobThai profile",
+        "Upload resume or portfolio",
+        "Email application",
+        "Easy Form"
+      ],
+      "requiredDocumentsAfterInterviewCall": [
+        "สำเนาบัตรประชาชน",
+        "สำเนาทะเบียนบ้าน",
+        "สำเนาหลักฐานการศึกษา หรือ Transcript",
+        "รูปถ่ายขนาด 1 นิ้ว 1 ใบ",
+        "สำเนาหลักฐานการพ้นภาระทางทหารสำหรับเพศชาย",
+        "สำเนาใบผ่านงาน ถ้ามี",
+        "Portfolio ถ้ามี"
+      ],
+      "contactEmail": "jobthai_259@trustmail.jobthai.com"
+    },
+    "tags": [
+      "งานคอมพิวเตอร์/ไอที",
+      "AI Engineer",
+      "Hybrid Work",
+      "Online Interview",
+      "กรุงเทพมหานคร",
+      "เขตบางรัก"
+    ],
+    "matchingSignals": {
+      "strongPositiveSignals": [
+        "มีพื้นฐาน Programming และ Algorithm ดี",
+        "มีประสบการณ์หรือ project ด้าน Machine Learning / Deep Learning",
+        "ใช้ Python หรือ TensorFlow ได้",
+        "เข้าใจการประเมินผล model",
+        "ทำงานร่วมกับทีมและสื่อสารได้ดี"
+      ],
+      "possibleWeakSignals": [
+        "ไม่มีพื้นฐาน AI/ML",
+        "ไม่มีประสบการณ์เขียนโปรแกรมจริง",
+        "ไม่มีความเข้าใจ algorithm",
+        "ไม่สามารถอธิบายการเลือก model หรือ algorithm ได้"
+      ],
+      "portfolioRecommended": true
+    },
+    "analysis": {
+      "confidence": 0.86,
+      "quality": "usable_jd",
+      "missingFields": [
+        "employmentType",
+        "seniority",
+        "yearsExperience",
+        "benefits detail"
+      ],
+      "warnings": [
+        "JD ไม่ระบุ seniority ชัดเจน แม้ salary range กว้างมาก",
+        "JD ไม่ระบุจำนวนปีประสบการณ์",
+        "Stack ถูกระบุเป็นรายการเทคโนโลยีที่ใช้ แต่ไม่ได้บอกว่าแต่ละตัว required หรือ optional",
+        "Benefits section มีลิงก์ แต่ไม่มีรายละเอียดสวัสดิการเต็มในเนื้อหาที่ scrape มา",
+        "ควรตัด footer, navigation, tags และ apply method UI ออกจาก cleanMarkdown ก่อนส่งเข้า AI parsing"
+      ]
+    }
+  }

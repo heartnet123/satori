@@ -1,0 +1,8 @@
+{
+  "intent": "Perform architectural review of the matching service",
+  "status": "active",
+  "clarity_score": 0,
+  "confirmed_facts": [],
+  "current_depth": "medium",
+  "history": []
+}
