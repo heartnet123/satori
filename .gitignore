@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+.*
+UBIQUITOUS_LANGUAGE.md
+ROADMAP.md
+TODO.md
+jd.json
+resume.json
